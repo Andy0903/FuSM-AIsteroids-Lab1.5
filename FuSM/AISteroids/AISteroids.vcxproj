@@ -201,6 +201,7 @@
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <ClCompile Include="OwnMade\FStateExplore.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\AIControl.h" />
@@ -226,6 +227,7 @@
     <ClInclude Include="..\Control.h" />
     <ClInclude Include="..\GameSession.h" />
     <ClInclude Include="..\HumanControl.h" />
+    <ClInclude Include="OwnMade\FStateExplore.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

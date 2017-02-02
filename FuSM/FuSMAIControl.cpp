@@ -8,6 +8,7 @@
 #include "FStateAttack.h"
 #include "FStateEvade.h"
 #include "FStateGetPowerup.h"
+#include "..\AISteroids\OwnMade\FStateExplore.h"
 
 #include "Target.h"
 
@@ -22,6 +23,7 @@ AIControl(ship)
     m_machine->AddState(new FStateAttack(this));
     m_machine->AddState(new FStateEvade(this));
     m_machine->AddState(new FStateGetPowerup(this));
+	m_machine->AddState(new FStateExplore(this));
     m_machine->Reset();
 }
 

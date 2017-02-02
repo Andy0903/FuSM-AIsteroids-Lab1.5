@@ -5,7 +5,7 @@
 class Bullet;
 class Control;
 
-#define MAX_SHOT_LEVEL    3
+#define MAX_SHOT_LEVEL    5//3
 #define MAX_SHIP_SPEED    120
 #define MAX_AG_SHIP_SPEED 120
 #define MAX_TRACTOR_DIST  180

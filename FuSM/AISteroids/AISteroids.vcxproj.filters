@@ -13,6 +13,9 @@
     <Filter Include="Game Objects">
       <UniqueIdentifier>{fa52505c-aa9d-4f5d-85c6-76350d32476f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="AI Method Files\OwnMade">
+      <UniqueIdentifier>{e9a7a9f9-79b7-4ab3-9b61-62a116f74375}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\AIControl.cpp">
@@ -66,6 +69,9 @@
     <ClCompile Include="..\asteroids.cpp" />
     <ClCompile Include="..\GameSession.cpp" />
     <ClCompile Include="..\HumanControl.cpp" />
+    <ClCompile Include="OwnMade\FStateExplore.cpp">
+      <Filter>AI Method Files\OwnMade</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\AIControl.h">
@@ -131,5 +137,8 @@
     <ClInclude Include="..\Control.h" />
     <ClInclude Include="..\GameSession.h" />
     <ClInclude Include="..\HumanControl.h" />
+    <ClInclude Include="OwnMade\FStateExplore.h">
+      <Filter>AI Method Files\OwnMade</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
